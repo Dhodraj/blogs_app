@@ -4,10 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "start-server": "nodemon app.js",
+    "install": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dhodraj/blogs_app"
+  },
+  "author": "Dhodraj Sundaram",
   "license": "ISC",
+  "homepage": "https://github.com/Dhodraj/blogs_app#blog-post-app",
   "dependencies": {
     "antd": "^4.22.8",
     "axios": "^0.27.2",
@@ -15,6 +23,7 @@
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "moment": "^2.29.4",
-    "mongoose": "^6.5.4"
+    "mongoose": "^6.5.4",
+    "nodemon": "^2.0.19"
   }
 }
