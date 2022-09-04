@@ -5,8 +5,8 @@
 ![image](https://user-images.githubusercontent.com/83802185/188304978-9810ea1b-66b7-4376-be77-8f21227edd5c.png)
 
 
+**Features**
 - This application features are blog creation, blog updating, blog deletion and listing blogs.
 - A blog post will have a Title, Content, Author, Created and updated date.
 - We should have provisions to Add a new blog, Update the blog and delete a blog.
 - There will also be a screen to list the blogs added into the system, with provisions to search by Title and filter by authors and sort by the created date (asc \ desc).
-
